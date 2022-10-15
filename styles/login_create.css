@@ -1,0 +1,243 @@
+/* .resume {
+    background: blue;
+    height: 10vh;
+} */
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 1%;
+    font-size: calc(0.71vw + 0.71vh);
+    height: 7vh;
+}
+
+.or {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.or>span {
+    background: #c58480;
+    padding: 0 10px;
+}
+
+.btn-login {
+    color: black;
+    font-size: calc(0.71vw + 0.71vh);
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+
+.btn-login>a:nth-child(1) {
+
+    border-right: 1px solid gray;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.btn-login>a:nth-child(2) {
+    margin: 0 2%;
+    color: #C5362C;
+    border: 1px solid #BD342A;
+    border-radius: 20px;
+    padding: 9px 24px;
+    cursor: pointer;
+}
+
+.btn-login>a:nth-child(2):hover {
+    color: white;
+    border: 1px solid #BD342A;
+    background-color: #BD342A;
+    transition: 0.4s;
+    border-radius: 20px;
+    padding: 9px 24px;
+    cursor: pointer;
+}
+
+.btn-login>a:nth-child(3) {
+    /* align-items: center;
+    display: flex; */
+    background-color: #BD342A;
+    border: 1px solid #BD342A;
+    color: white;
+    padding: 9px 24px;
+    cursor: pointer;
+}
+
+.btn-login>a:nth-child(3):hover {
+    /* align-items: center;
+    display: flex; */
+    background-color: white;
+    border: 1px solid #BD342A;
+    transition: 0.4s;
+    color: #BD342A;
+    padding: 9px 24px;
+    cursor: pointer;
+}
+
+.bg-login {
+    background-color: #8B0900;
+    height: 100vh;
+}
+
+.register {
+    height: 93vh;
+    /* width: 100vw; */
+    float: right;
+    align-items: center;
+    display: flex;
+    padding-right: 5%;
+}
+
+.register>div {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 54px;
+    height: 80%;
+    width: 30vw;
+    padding: 10% 14%;
+}
+
+.register>div>a {
+    font-size: calc(1.97vw + 1.97vh);
+    color: #8B0900;
+}
+
+.styleInput1 {
+    margin: 4% 0 1% 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    border-color: white;
+    height: 8%;
+}
+
+.styleInput2 {
+    margin: 1% 0 4% 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    border-color: white;
+    height: 8%;
+
+}
+
+.styleInput1::placeholder {
+    opacity: 0.5;
+    padding: 2.8% 1.9%;
+}
+
+.styleInput2::placeholder {
+    opacity: 0.5;
+    padding: 2.8% 1.9%;
+}
+
+
+
+/* .styleInput:focus {
+    border-color: white;
+}
+
+.styleInput:active {
+    border-color: white;
+} */
+
+.btn-signIn {
+    /* font-size: 24px; */
+    margin: 2% 0;
+    height: 5vh;
+    width: 100%;
+    background-color: #8B0900;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    color: white;
+
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.bg-create-account {
+    background-color: #8B0900;
+    height: 100vh;
+    width: 100vw;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+}
+
+.bg-create-account>div:nth-child(2) {
+    height: 93vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fromCreateAccount {
+    padding: 2.9% 3.15%;
+    margin: 0 5%;
+    width: 30vw;
+    height: 70vh;
+    position: relative;
+    background: #fff;
+    color: #000;
+    float: right;
+    border-radius: 8px;
+}
+
+.fromCreateAccount p {
+    color: gray;
+    margin-bottom: 2.5rem;
+}
+
+.fromCreateAccount>div:nth-child(1) {
+    font-size: calc(1.6vw + 1.6vh);
+}
+
+
+.input-create-account {
+    background-color: white;
+    color: #000;
+    width: 100%;
+    /* outline: 0; */
+    border-width: 0 0 1px;
+    border-color: #707070;
+}
+
+.input-create-account:focus-visible {
+    background-color: red;
+    border: 5px solid green;
+
+}
+
+.btn-create-account {
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-create-account>button {
+    cursor: pointer;
+    background-color: #8B0900;
+    border: 1px solid #8B0900;
+    color: white;
+    border-radius: 38px;
+    padding: 2%;
+}
+
+.btn-create-account>button:hover {
+    background-color: white;
+    border: 1px solid #8B0900;
+    color: #8B0900;
+    transition: 0.4s;
+}
